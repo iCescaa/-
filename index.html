@@ -15,40 +15,40 @@
             background-size: cover;
             height: 100vh;
             display: flex;
-            align-items: flex-start;
+            align-items: flex-start; /* Move o conteúdo mais para cima */
             justify-content: center;
             font-family: 'Blinky Star', sans-serif;
             color: white;
             text-align: center;
             overflow: hidden;
             position: relative;
-            padding-top: 50px;
+            padding-top: 50px; /* Ajuste para garantir espaçamento do topo */
         }
         .convite {
             background: rgba(0, 0, 0, 0.6);
-            padding: 20px;
+            padding: 30px;
             border-radius: 20px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
             backdrop-filter: blur(8px);
-            width: 70%;
-            max-width: 380px;
+            width: 80%;
+            max-width: 450px;
             animation: fadeIn 1.5s ease-in-out;
             position: relative;
         }
         .titulo {
             font-size: 2.5em;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             font-family: 'Buka Bird', sans-serif;
         }
         .detalhes {
-            font-size: 1.2em;
-            line-height: 1.4;
+            font-size: 1.3em;
+            line-height: 1.5;
         }
         .stitch-bottom {
             position: absolute;
-            bottom: 20px;
+            bottom: 50px; /* Levanta mais a imagem do Stitch */
             left: 40px;
-            width: 250px; /* Reduzido para melhor visualização no celular */
+            width: 350px;
         }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(-20px); }
